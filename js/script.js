@@ -20,5 +20,6 @@ function calculaImc(){
 
     }else{
         document.getElementById("result").innerHTML = "Ops! Digite sua altura e seu peso corretamente!"
+        document.getElementById("legenda").innerHTML = ""
     }
 }
