@@ -1,5 +1,5 @@
 body{
-    background-color: #3f51b5;
+    background-color: #bebebe;
     font-size: 100%;
 }
 .imc {
@@ -14,7 +14,7 @@ body{
 
 h1 {
     font-size: 8.5vw;
-    font-family: 'Schoolbell', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
     width: 100%;
     text-align: center;
 }
@@ -28,7 +28,7 @@ h1 {
 }
 
 #altura, #peso {
-    font-family: 'Schoolbell', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.875em;
     padding: 30px;
     border-style: inset;
@@ -39,11 +39,11 @@ h1 {
 }
 
 .btn {
-    background-color: #2196f3;
+    background-color: #868686;
     width: 100%;
     font-size: 1.875em;
     padding: 30px;
-    font-family: 'Schoolbell', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
     border-radius: 10px;
 }
 
@@ -59,7 +59,6 @@ h1 {
     
     h1 {
         font-size: 2em;
-        font-family: 'Schoolbell', cursive;
         width: 100%;
         text-align: center;
     }
@@ -76,7 +75,6 @@ h1 {
     
     #altura, #peso {
         
-        font-family: 'Schoolbell', cursive;
         font-size: 1.875em;
         padding: 30px;
         border-style: inset;
@@ -87,11 +85,9 @@ h1 {
     }
     
     .btn {
-        background-color: #2196f3;
         width: 100%;
         font-size: 1.875em;
         padding: 30px;
-        font-family: 'Schoolbell', cursive;
         border-radius: 10px;
     }
 
