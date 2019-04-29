@@ -1,0 +1,37 @@
+body{
+    background-color: #3f51b5;
+    
+}
+.imc {
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Schoolbell', cursive;
+    width: 100%;
+    text-align: center;
+}
+
+#altura, #peso {
+    font-family: 'Schoolbell', cursive;
+    font-size: 30px;
+    padding: 30px;
+    border-style: inset;
+    border-width: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #2196f3;
+    width: 100%;
+    font-size: 30px;
+    padding: 30px;
+    font-family: 'Schoolbell', cursive;
+    border-radius: 10px;
+}
