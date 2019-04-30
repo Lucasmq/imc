@@ -1,9 +1,19 @@
 body{
-    background-color: #bebebe;
+    background-color: #e3ffe7;
     font-size: 100%;
 }
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
 .imc {
-    padding-top: 5%;
+    /* padding-top: 2%; */
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
@@ -12,11 +22,17 @@ body{
     position: fixed;
 }
 
+span{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 3.5vw;
+}
+
 h1 {
     font-size: 8.5vw;
     font-family: 'PT Sans Narrow', sans-serif;
     width: 100%;
     text-align: center;
+    /* color: #8f8f8f; */
 }
 
 #titulo {
@@ -30,26 +46,36 @@ h1 {
 #altura, #peso {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.875em;
-    padding: 30px;
-    border-style: inset;
-    border-width: 1px;
+    padding: 15px;
+    /* border-style: inset; */
+    border-width: 0px;
     margin-bottom: 10px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+span{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.875em;
+    width: 100%;
 }
 
 .btn {
-    background-color: #868686;
+    margin-top: 40px;
+    border: 0ch;
+    background-color: #67b637;
     width: 100%;
     font-size: 1.875em;
-    padding: 30px;
+    padding: 15px;
+
     font-family: 'PT Sans Narrow', sans-serif;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 @media only screen and (min-width: 600px)  {
     .imc {
-        padding-top: 30px;
+        /* padding-top: 30px; */
         width: 50%;
         padding-left: 25%;
         padding-right: 25%;
@@ -76,19 +102,19 @@ h1 {
     #altura, #peso {
         
         font-size: 1.875em;
-        padding: 30px;
-        border-style: inset;
-        border-width: 1px;
+        /* padding: 20px; */
+        /* border-style: inset; */
+        /* border-width: 1px; */
         margin-bottom: 10px;
         text-align: center;
-        border-radius: 10px;
+        /* border-radius: 10px; */
     }
     
     .btn {
         width: 100%;
         font-size: 1.875em;
-        padding: 30px;
-        border-radius: 10px;
+        /* padding: 20px; */
+        /* border-radius: 10px; */
     }
 
 

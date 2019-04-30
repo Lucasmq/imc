@@ -10,11 +10,16 @@
     <title>IMC</title>
 </head>
 <body>
-    <h1 id="titulo">Índice de Massa Corporal</h1>
+    <!-- <h1 id="titulo">Índice de Massa Corporal</h1> -->
+    <div id="logo">
+        <img src='/img/imc.png' alt='imc'>
+    </div>
     <div class='imc'>
-        <input type="text" name="altura" id="altura" placeholder="Cm">
-        <input type="text" name="peso" id="peso" placeholder="Kg">
-        <button class='btn' id='imcResult' >Calcular</button>
+        <!-- <span>Altura</span> -->
+        <input type="text" name="altura" id="altura" placeholder="Altura em cm">
+        <!-- <span>Peso</span> -->
+        <input type="text" name="peso" id="peso" placeholder="Peso em Kg">
+        <button class='btn' id='imcResult'type="submit" >Calcular</button>
         <h1 id="result"></h1>
         <h1 id="legenda"></h1>
     </div>

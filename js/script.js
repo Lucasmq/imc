@@ -1,5 +1,13 @@
 document.getElementById('imcResult').addEventListener('click',calculaImc);
 
+var inputPeso = document.getElementById("peso");
+inputPeso.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("imcResult").click();
+    }
+  });
+
 function calculaImc(){
     let peso = document.getElementById('peso').value;
     let altura = document.getElementById('altura').value/100
@@ -16,6 +24,7 @@ function calculaImc(){
         if(result >= 40 ) legenda = "Obesidade Grau 3";
 
         document.getElementById("legenda").innerHTML = legenda
+        document.getElementById("result").focus();
 
 
     }else{
