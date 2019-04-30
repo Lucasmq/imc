@@ -1,8 +1,8 @@
 const express = require('express')
 const http = require('http')
 
-const port = 3000
-const ip = '192.168.2.13'
+const port = Process.env.PORT || 3000
+const ip = 'localhost'
 
 const app = express();
 const server = http.createServer(app);
